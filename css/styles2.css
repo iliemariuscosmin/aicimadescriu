@@ -1,0 +1,110 @@
+/* generalitati */
+body{
+  /* padding: 0% 3% 3% 3%; */
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 8vw;
+}
+
+
+h2{
+  font-size: 6vw;
+}
+h3{
+  font-size: 2vw;
+}
+
+p{
+  font-size: 3vw;
+}
+
+.paragrafCarousel{
+  /* font-size: 2vw; */
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+hr{
+  margin: 0 10%;
+  border: 1px solid red;
+}
+
+.Centrare{
+  text-align: center;
+}
+
+/* Header */
+/* navbar */ 
+
+
+.navbar-brand {
+  font-family: Verdana, sans-serif;
+  font-size: 2vw;
+  height: 3%;
+}
+
+.nav-link{
+  font-family: Verdana, sans-serif;
+  font-size: 1vw;
+}
+
+/* cine sunt */ 
+
+.cine_sunt{
+  background-color: #EFC595; 
+  text-align: center;
+}
+
+.cines{
+  padding-top: 8vw;
+  line-height: 3vw;
+  padding-bottom: 2%;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+
+.circular {
+  width: 25%;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin:auto;
+}
+
+
+
+/* ce stiu sa fac */
+
+@media (max-width: 375px){
+  .cestiusafac{
+    background-color: #f0ddeb;
+    margin: auto;
+  }
+}
+
+@media (min-width: 375px){
+  .cestiusafac{
+    background-color: #f0ddeb;
+    margin: 3% 15% 15% 15%;
+  }
+}
+
+
+.Carousel_Dimensions{
+  background-color: #f0ddeb;
+}
+
+.imaginiPrezentareCarousel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+}

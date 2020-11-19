@@ -1,0 +1,226 @@
+.cine_sunt{
+  background-color: #3D94F6;
+}
+
+
+
+
+
+
+/**********TAG SELECTORS**********/
+
+body {
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  /* background-color: #66BFBF; */
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  text-decoration: wavy;
+  width: 100%;
+}
+
+head{
+    background-color: #Eaf6f6;
+    
+}
+
+div{
+    border-color: black;
+    padding: auto;
+    position: relative;
+
+    }
+
+h1 {
+  position: auto;
+  margin-top: 20px;
+  font-size: 90px; 
+/*   color: rgb(36, 3, 3);*/  
+  color: black;
+  font-family: 'Sacramento', cursive;
+  /*   margin: 30px auto 0 auto;
+ */}
+
+
+h2 {
+  /* color: rgb(36, 3, 3); */
+  color: black;
+}
+
+h3 {
+  /* color: rgb(36, 3, 3); */
+  color: black;
+  font-size: 2rem;
+}
+
+p {
+    font-size: 20px;
+    color: rgba(66, 5, 5, 0.61);
+    position: relative;
+    font-family: 'Merriweather', serif;
+
+}
+.pmaimic{
+  font-size: 15px;
+  color: rgba(66, 5, 5, 0.884);
+  opacity: 50%;
+}
+br {
+  content: "";
+  margin: 5em;
+  display: block;
+  font-size: 24%;
+}
+
+/**********LCASS SELECTORS**********/
+
+.div1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.div2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.pro{ /*cuvantul programator va contine "pro" formatat altfel*/
+    text-decoration: underline;
+}
+
+.top_container{
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+}
+
+.primulNor{
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  bottom: 50px;
+  width: 20%;
+}
+
+.secundNor{
+  position: absolute;
+  left: 55%;
+  top: 25%; 
+  width: 20%;
+  bottom: 50px;
+}
+
+.muntele{
+  position: absolute;
+  width: 45%; 
+  bottom: -50px;
+  right: 25%;
+  }
+ 
+.bacon {
+  background-color: green;
+  width: 120px;
+  height: 120px;
+}
+
+.broccoli {
+  background-color: red;
+  width: 120px;
+  height: 120px;
+}
+.circular {
+  border-radius: 100%;
+}
+
+/**********ID SELECTORS**********/
+#Heading {
+  color: rebeccapurple;
+}
+
+/**********SUDO CLASSES**********/
+/* 
+img:hover {
+  background-color: gold; 
+}
+ */
+
+
+
+ .hrJumatate {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: dashed;
+  border-width: 1px;
+  opacity: 30%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto auto 50px auto;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.qlik-img{
+  float: left;
+  margin: auto auto 30px auto;
+}
+
+.altetech-img{
+  float: right;
+  margin: auto auto 30px auto;
+}
+
+.qlik-code{
+  clear: both;
+}
+
+
+
+.BUTTON_WSG {
+  background: #b3ecde;
+  background-image: -webkit-linear-gradient(top, #b3ecde, #7dc2b1);
+  background-image: -moz-linear-gradient(top, #b3ecde, #7dc2b1);
+  background-image: -ms-linear-gradient(top, #b3ecde, #7dc2b1);
+  background-image: -o-linear-gradient(top, #b3ecde, #7dc2b1);
+  background-image: -webkit-gradient(to bottom, #b3ecde, #7dc2b1);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #031358;
+  font-family: Arial;
+  font-size: 28px;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_WSG:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
